@@ -1,4 +1,4 @@
-tensorflow==1.15
+tensorflow==2.4.0
 matplotlib==3.3.3
 h5py==2.10.0
 Pillow
