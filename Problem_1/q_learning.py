@@ -64,7 +64,7 @@ def Q_learning(Q_network, reward_fn, is_terminal_fn, X, U, Xp, gam):
 def main():
     problem = generate_problem()
     n = problem["n"]
-    sdim, adim = n * n, 1
+    sdim, adim = n * n, 4
     Ts = problem["Ts"]  # transistion matrices
     idx2pos = tf.convert_to_tensor(problem["idx2pos"], dtype=tf.float32)
 
