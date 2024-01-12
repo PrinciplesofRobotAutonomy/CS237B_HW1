@@ -125,7 +125,7 @@ def main():
     # create the deep Q-network
     # it needs to take in 2 state + 1 action input (3 inputs)
     # it needs to output a single value (batch x 1 output) - the Q-value
-    # it should be 3 layers deep with
+    # it should have 3 dense layers with a width of 64 (two hidden 64 neuron embeddings)
 
     ######### Your code ends here ###########
 

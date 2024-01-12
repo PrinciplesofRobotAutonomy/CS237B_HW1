@@ -55,13 +55,12 @@ def compute_convolutional_KxK_classification(model, image_path):
     )
 
     ######### Your code starts here #########
-    # Fill in the parts indicated by #FILL#. No additional lines are required.
 
     # We want to use the output of the last convolution layer which has the shape [bs, K, K, bottleneck_size]
 
     # First calculate K
 
-    # Next create a intermediate input structure which takes in a bottleneck tensor
+    # Next create a intermediate input structure which takes in a bottleneck tensor (int_input)
 
     # Create the classifier model which takes in the bottleneck tensor and outputs the class probabilities
     # Note: you must reuse the weights (layers) from the trained model as well as the int_input
@@ -93,8 +92,6 @@ def compute_and_plot_saliency(model, image_path):
 
     with tf.GradientTape() as t:
         ######### Your code starts here #########
-        # Fill in the parts indicated by #FILL#. No additional lines are
-        # required.
 
 
 

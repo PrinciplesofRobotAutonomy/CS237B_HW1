@@ -23,8 +23,6 @@ def classify(model, test_dir):
     # Calculate the accuracy and the number of test samples in the folder
     # test_img_gen has a list attribute filenames where you can access the
     # filename of the datapoint
-        # break after 1 epoch
-                #pdb.set_trace()
 
 
     ######### Your code ends here #########
